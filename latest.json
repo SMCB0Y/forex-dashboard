@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T18:50:51.663439",
-    "date": "2026-05-17",
+    "generated_at": "2026-05-19T08:35:12.759920",
+    "date": "2026-05-19",
     "version": "1.0"
   },
   "signals": {
@@ -12,7 +12,7 @@
       "emoji": "🟢",
       "reasons": [
         "Fed-BCE +1.60% (fort avantage USD)",
-        "Spread US-DE +1.37% (haussier USD)"
+        "Spread US-DE +1.40% (haussier USD)"
       ]
     },
     "EUR": {
@@ -22,8 +22,8 @@
       "emoji": "🔴",
       "reasons": [
         "Fed-BCE +1.60% (désavantage EUR)",
-        "Spread US-DE +1.37% (baissier EUR)",
-        "Perf hebdo EUR -1.13% vs USD"
+        "Spread US-DE +1.40% (baissier EUR)",
+        "Perf hebdo EUR -0.99% vs USD"
       ]
     },
     "GBP": {
@@ -34,8 +34,8 @@
       "reasons": [
         "Fed-BoE +0.00% (neutre)",
         "BoE-BCE +1.60% (avantage GBP vs EUR)",
-        "Spread UK-US +0.64% (légèrement haussier GBP)",
-        "Perf hebdo GBP -1.87% vs USD"
+        "Spread UK-US +0.46% (légèrement haussier GBP)",
+        "Perf hebdo GBP -1.61% vs USD"
       ]
     },
     "eurusd_summary": "🔴 BEARISH EUR/USD (fort)",
@@ -49,23 +49,23 @@
     "fed_boe_spread": 0.0
   },
   "yields": {
-    "us_2y": 4.0,
-    "us_10y": 4.47,
+    "us_2y": 4.09,
+    "us_10y": 4.59,
     "us_2s10s": null,
-    "de_10y": 3.1,
-    "uk_10y": 5.11,
-    "spread_us_de": 1.37,
-    "spread_us_uk": -0.64
+    "de_10y": 3.19,
+    "uk_10y": 5.05,
+    "spread_us_de": 1.4,
+    "spread_us_uk": -0.46
   },
   "fx": {
     "EUR/USD": {
-      "rate": 1.1628,
-      "date": "2026-05-15",
+      "rate": 1.1648,
+      "date": "2026-05-18",
       "source": "Frankfurter/BCE"
     },
     "GBP/USD": {
-      "rate": 1.3358,
-      "date": "2026-05-15",
+      "rate": 1.3385,
+      "date": "2026-05-18",
       "source": "Frankfurter/BCE"
     }
   },
@@ -115,8 +115,8 @@
     }
   },
   "vix": {
-    "value": 17.26,
-    "change": -0.61,
+    "value": 18.43,
+    "change": 1.17,
     "regime": "🟢 MODÉRÉ (neutre)"
   },
   "commodities": {
@@ -131,15 +131,15 @@
       "date": "2026-05-11"
     },
     "gold": {
-      "price": 4561.9,
-      "change_pct": null,
-      "date": "2026-05-15"
+      "price": 4548.7,
+      "change_pct": -0.08,
+      "date": "2026-05-19"
     }
   },
   "fx_performance": {
     "risk_sentiment": "🔴 RISK-OFF (JPY/CHF recherchés, cycliques en baisse)",
-    "risk_score": -4.05,
-    "source": "ECB XML (2026-05-08 → 2026-05-15)",
+    "risk_score": -3.18,
+    "source": "ECB XML (2026-05-11 → 2026-05-18)",
     "ranked": [
       {
         "currency": "USD",
@@ -147,31 +147,31 @@
       },
       {
         "currency": "CAD",
-        "change_pct": -0.71
+        "change_pct": -0.54
       },
       {
         "currency": "CHF",
-        "change_pct": -1.0
+        "change_pct": -0.79
       },
       {
         "currency": "EUR",
-        "change_pct": -1.13
+        "change_pct": -0.99
       },
       {
         "currency": "JPY",
-        "change_pct": -1.13
+        "change_pct": -1.03
       },
       {
         "currency": "AUD",
-        "change_pct": -1.17
-      },
-      {
-        "currency": "GBP",
-        "change_pct": -1.87
+        "change_pct": -1.04
       },
       {
         "currency": "NZD",
-        "change_pct": -2.01
+        "change_pct": -1.36
+      },
+      {
+        "currency": "GBP",
+        "change_pct": -1.61
       }
     ]
   },
